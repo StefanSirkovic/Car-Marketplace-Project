@@ -1,0 +1,157 @@
+  .navbar-nav{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left:auto;
+  }
+  .navbar {
+    padding: 20px 0;
+  }
+  /*.novoDugme:hover{
+    text-transform: uppercase;
+    color:yellow !important;
+    background-color: orange !important;
+  }
+  */
+
+  .navbar-nav .nav-item {
+    margin: 0 10px;
+  }
+ 
+  .navbar-nav .nav-link {
+    color: #666;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: black;
+  }
+  .pre-meni{
+    font-size:0.9em;
+  }
+ 
+ .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.dropdown-menu a {
+    color: #333;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    display: block;
+}
+.dropdown-menu a:hover {
+    background-color: #f2f2f2;
+    color: #666;
+}
+.glavni{
+  letter-spacing: 0.15em;
+}
+.naslov{
+    font-family: 'Playfair Display', serif;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+}
+.carousel-item img {
+  object-fit: contain;
+}
+.photo-gallery img{
+  height: 250px;
+  width: 100%;
+  object-fit:cover;
+}
+.kontaktForme{
+  border-radius: 0;
+  border-left: none;
+}
+.site-map li {
+  margin-bottom: 10px;
+}
+.site-map a {
+  text-decoration: none;
+  color: #333;
+}
+.site-map a:hover {
+  color: black;
+}
+.recenzije {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+.recenzija {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kupac {
+  margin-bottom: 10px;
+}
+
+.kupac h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.kupac p {
+  margin: 0;
+  color: #666;
+}
+
+.tekst-recenzije {
+  font-style: italic;
+  color: #444;
+}
+.korisni-saveti {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.opis {
+  color: #666;
+  line-height: 1.6;
+}
+
+.lista-saveta {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #666;
+}
+.item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.item img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item:hover img {
+  transform: scale(1.1);
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
